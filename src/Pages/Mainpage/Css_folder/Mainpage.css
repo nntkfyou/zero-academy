@@ -1,0 +1,406 @@
+
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.main-wrapper {
+  position: absolute;
+  width: 1024px;
+  height: 2354px;
+  left: calc(50% - 1024px / 2);
+  top: 0px;
+
+  overflow: hidden;
+}
+
+@media (max-width: 1270px) {
+  .main-wrapper {
+    max-width: 70%;
+  }
+}
+
+/* Вступительная информация на главной странице*/
+
+.first-fragment {
+  display: flex;
+  width: 100%;
+  top: 134px;
+  bottom: 1799px;
+  background-color: rgba(128, 128, 128, 0.3);
+  margin-top: 65px;
+}
+
+.first-fragment-heading {
+  position: absolute;
+  width: 610px;
+  height: 92px;
+  left: 50px;
+  top: 172px;
+
+ 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+
+  color: #061844;
+  z-index: 999;
+}
+
+.first-fragment-heading span {
+  color: #ff1dbe;
+}
+
+.first-fragment-text {
+  position: absolute;
+  width: 520px;
+  height: 68px;
+  left: 50px;
+  top: 279px;
+
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+
+ 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  /* display: flex;
+  align-items: center; */
+  letter-spacing: 0.02em;
+
+  color: #122350;
+
+  z-index: 999;
+}
+
+.btn-start {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  left: calc(50% - 100px / 2 - 412px);
+  top: 382px;
+
+  background: #ff1dbe;
+  border: 2px solid #ff1dbe;
+  border-radius: 10px;
+
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.btn-watch-video {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 173px;
+  height: 35px;
+  left: calc(50% - 173px / 2 - 255.5px);
+  top: 382px;
+
+  background: #ffffff;
+  border: 2px solid #ff1dbe;
+  border-radius: 10px;
+
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  letter-spacing: 0.02em;
+
+  color: #ff1dbe;
+}
+.cards {
+  z-index: 999;
+}
+.card-student {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 150px;
+  height: 75px;
+  left: 222px;
+  top: 480px;
+
+  background: #ffffff;
+  border: 2px solid #8700fa;
+  border-radius: 10px;
+
+  /*Text*/
+
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* display: flex;
+  align-items: center;*/
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #8700fa;
+}
+
+.card-course {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 150px;
+  height: 75px;
+  left: 437px;
+  top: 480px;
+
+  background: #ffffff;
+  border: 2px solid #8700fa;
+  border-radius: 10px;
+
+  /*Text*/
+
+  position: absolute;
+
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #8700fa;
+}
+
+.card-mentor {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 150px;
+  height: 75px;
+  left: 622px;
+  top: 480px;
+
+  background: #ffffff;
+  border: 2px solid #8700fa;
+  border-radius: 10px;
+
+  /*Text*/
+
+  position: absolute;
+
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #8700fa;
+}
+.bold-card-text {
+  margin-top: 18px;
+  margin-right: 33px;
+  margin-left: 33px;
+  margin-bottom: 0;
+}
+
+.thin-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.98px;
+}
+
+.sticker {
+  position: absolute;
+  width: 441px;
+  height: 441px;
+  left: 548px;
+  top: 134px;
+  z-index: 1;
+
+  background: url(./../../../../public/img/sticker-1.png);
+}
+
+/* Карточка с преимуществами */
+
+.advantages {
+  position: absolute;
+  width: 924px;
+  height: 400px;
+  left: calc(50% - 924px / 2);
+  top: 625px;
+
+  background: #b35ffb;
+  border-radius: 20px;
+}
+
+.advantages-img {
+  position: absolute;
+  width: 340.42px;
+  height: 350px;
+  left: calc(50% - 340.42px / 2 - 253.86px);
+  top: 25px;
+
+  background: url(./../../../../public/img/advantageimg.png);
+}
+
+.advantages-text {
+  width: auto;
+  height: auto;
+}
+
+.advantages-heading {
+  position: absolute;
+  width: 486.32px;
+  height: 37px;
+  left: calc(50% - 486.32px / 2 + 179.94px);
+  top: 82px;
+
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.advantages-list {
+  position: absolute;
+width: 462px;
+height: 102px;
+left: calc(50% - 462px/2 + 192.09px);
+top: 149px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.advantages-btn {
+  position: absolute;
+width: 145.89px;
+height: 50px;
+left: calc(50% - 145.89px/2 + 350.15px);
+top: 281px;
+
+background: #8700FA;
+border-radius: 10px;
+border: 0;
+
+/*Text*/
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+
+
+    /*Фоновые картинки-пузыри*/
+
+.vector-img1 {
+  position: absolute;
+  width: 523.62px;
+height: 651.06px;
+left: 678px;
+top: -113px;
+  background-image: url(./../../../../public/img/Vector1.png);
+
+  z-index: -1;
+
+}
+
+.vector-img2 {
+  position: absolute;
+  width: 577.15px;
+  height: 570.82px;
+  left: -300px;
+  top: 395px;
+  
+  background-image: url(./../../../../public/img/Vector2.png);
+
+  z-index: -1;
+
+}
+
+.vector-img3 {
+  position: absolute;
+  width: 437px;
+  height: 418px;
+  left: 710px;
+  top: 935px;
+  
+  background-image: url(./../../../../public/img/Vector3.png);
+
+  z-index: -1;
+
+}
+
+.vector-img4 {
+  position: absolute;
+  width: 575.32px;
+  height: 570.14px;
+  left: -251px;
+  top: 1423px;
+  
+  background-image: url(./../../../../public/img/Vector4.png);
+
+  z-index: -1;
+
+}
+
+/* .carousel-cards {
+  width: 246px;
+  height: 290px;
+  min-width: 246px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 34px;
+  border: #061844 solid 1px;
+}
+
+.carousel-card-1 {
+background-color: gray;
+margin-left: 52px;
+}
+
+.carousel-card-2 {
+  background-color: yellow;
+  }
+
+  .carousel-card-3 {
+    background-color: darkblue;
+    margin-right: 54px;
+    } */

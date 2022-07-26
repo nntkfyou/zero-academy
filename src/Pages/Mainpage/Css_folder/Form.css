@@ -1,0 +1,118 @@
+.form-wrapper {
+  position: absolute;
+  width: 950px;
+  height: 345px;
+  left: calc(50% - 950px / 2 + 13px);
+  top: 1538px;
+
+  background: #b35ffb;
+  border-radius: 20px;
+}
+
+.form-heading {
+  position: absolute;
+  width: auto;
+  height: 55px;
+  left: calc(50% - 418px / 2 - 213px);
+  top: 75px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+
+  margin: 0;
+}
+
+.form-text {
+  position: absolute;
+  width: 418px;
+  height: 55px;
+  left: calc(50% - 418px / 2 - 212px);
+  top: 150px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.input-name {
+  position: absolute;
+  width: 388px;
+  height: 55px;
+  left: 523px;
+  top: 75px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.input-phone {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  left: 523px;
+  top: 150px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.input-email {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  left: 731px;
+  top: 150px;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+}
+
+.input-text {
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+
+  letter-spacing: 0.02em;
+  border: 0;
+}
+
+.input-text::-moz-placeholder {
+  color: #455ea0;
+}
+.input-text::-webkit-input-placeholder {
+  color: #455ea0;
+}
+
+.submit-btn {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  left: calc(50% - 150px / 2 + 374px);
+  top: 225px;
+
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+}
