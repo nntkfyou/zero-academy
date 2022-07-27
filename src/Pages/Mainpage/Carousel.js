@@ -27,28 +27,65 @@ function Carousel () {
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />
     };
-    const src = {
-      src: './../media/star.png'
-    }
 
-    const alt = {
-      alt : 'star'
-    }
+
+   
     return (
       <div className='main-container'>
         <h2>Самые популярные курсы</h2>
         <div className='slider-wrapper'>
         <Slider {...settings}>
+          
           <div className='card-1 carousel-cards'>
             <h3>Путь в IT. Как найти своё призвание</h3>
-            <div className='star'><img src={src} alt={alt}/> </div>
+            <div className='star'>
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+             </div>
+
             <div className='price-link'>500 руб</div>
+            <div className='arrow-link'>
+              <a href='/'>
+                <img src={require('./../../media/img/link-arrow.png')} alt='arrow-link' />
+              </a>
+            </div>
           </div>
           <div className='card-2 carousel-cards'>
             <h3>Изучаем JS с полного нуля!</h3>
+            <div className='star'>
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+             </div>
+
+            <div className='price-link'>500 руб</div>
+            <div className='arrow-link'>
+              <a href='/'>
+                <img src={require('./../../media/img/link-arrow.png')} alt='arrow-link' />
+              </a>
+            </div>
           </div>
           <div className='card-3 carousel-cards'>
             <h3>Курс по безопасности в сети</h3>
+            <div className='star'>
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+              <img  src={require('./../../media/img/star.png')} alt='star' />
+             </div>
+
+            <div className='price-link'>500 руб</div>
+            <div className='arrow-link'>
+              <a href='/'>
+                <img src={require('./../../media/img/link-arrow.png')} alt='arrow-link' />
+              </a>
+            </div>
           </div>
           <div className='card-4 carousel-cards'>
             <h3>Lorem ipsum dolor sit</h3>
@@ -59,6 +96,7 @@ function Carousel () {
           <div className='card-6 carousel-cards'>
             <h3>Lorem ipsum dolor sit</h3>
           </div>
+        
         </Slider>
         </div>
       </div>
@@ -66,7 +104,7 @@ function Carousel () {
   }
 
 
-export default Carousel
+export default Carousel;
 
 
 

@@ -8,6 +8,7 @@ p {
 .main-wrapper {
   position: absolute;
   width: 1024px;
+  max-width: 1024px;
   height: 2354px;
   left: calc(50% - 1024px / 2);
   top: 0px;
@@ -15,11 +16,11 @@ p {
   overflow: hidden;
 }
 
-@media (max-width: 1270px) {
+/* @media (max-width: 1270px) {
   .main-wrapper {
     max-width: 70%;
-  }
-}
+  } */
+
 
 /* Вступительная информация на главной странице*/
 
