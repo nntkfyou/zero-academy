@@ -68,6 +68,16 @@ letter-spacing: 0.02em;
 color: #FF1DBE;
 }
 
+.main-page:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 2px #FF1DBE;
+}
+
+.main-page:active {
+    transform: scale(1);
+    text-shadow:  none;
+}
+
 .courses {
     position: absolute;
 width: 48px;
@@ -82,6 +92,16 @@ line-height: 18px;
 letter-spacing: 0.02em;
 
 color: #455EA0;
+}
+
+.courses:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 2px #455EA0;
+}
+
+.courses:active {
+    transform: scale(1);
+    text-shadow:  none;
 }
 
 .about-us {
@@ -99,6 +119,16 @@ line-height: 18px;
 letter-spacing: 0.02em;
 
 color: #455EA0;
+}
+
+.about-us:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 2px #455EA0;
+}
+
+.about-us:active {
+    transform: scale(1);
+    text-shadow:  none;
 }
 
 .login {
@@ -149,21 +179,21 @@ letter-spacing: 0.02em;
 }
 
 .login:hover {
-    background-color: #FF1DBE;
+   box-shadow: 0 0 5px #FF1DBE;
     transform: scale(1.1);
 }
 .login:active {
-    background-color: #122350;
-    transform: scale(1);
+     transform: scale(1);
+     box-shadow: none;
 }
 
 .signup:hover {
-    background-color: #FF1DBE;
+    box-shadow: 0 0 5px #8700FA;
     transform: scale(1.1);
    
 }
 .signup:active {
-    background-color: #8700FA;
+    box-shadow: none;
     transform: scale(1);
 }
 

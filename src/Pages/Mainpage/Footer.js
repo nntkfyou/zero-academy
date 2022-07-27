@@ -8,29 +8,31 @@ function Footer() {
                 <div className='information'>
                     <h2 className='courses-heading'> Направления </h2>
                     <ul className='courses-list-1 list'>
-                        <li>Дизайн</li>
-                        <li>Английский язык</li>
-                        <li>Общее развитие</li>
-                        <li>Творчество</li>
-                        <li>Школа</li>
+                        <li><a href='/'>Дизайн</a></li>
+                        <li><a href='/'>Английский язык</a></li>
+                        <li><a href='/'>Общее развитие</a></li>
+                        <li><a href='/'>Творчество</a></li>
+                        <li><a href='/'>Школа</a></li>
 
                     </ul>
 
                     <ul className='courses-list-2 list'>
-                        <li>Программирование</li>
-                        <li>Маркетинг</li>
-                        <li>Психология</li>
-                        <li>Другое</li>
+                    <li><a href='/'>Программирование</a></li>
+                    <li><a href='/'>Маркетинг</a></li>
+                    <li><a href='/'>Психология</a></li>
+                    <li><a href='/'>Другое</a></li>
+                    
+
                     </ul>
 
                     <h2 className='info-heading'> О Zero.Academy </h2>
                     <ul className='info-list list'>
-                        <li>О платформе</li>
-                        <li>Центр Карьеры</li>
-                        <li>Отзывы</li>
-                        <li>Контакты</li>
-                        <li>Вакансии</li>
-                        <li>Для учителей</li>
+                        <li><a href='/'>О платформе</a></li>
+                        <li><a href='/'>Центр карьеры</a></li>
+                        <li><a href='/'>Отзывы</a></li>
+                        <li><a href='/'>Контакты</a></li>
+                        <li><a href='/'>Вакансии</a></li>
+                        <li><a href='/'>Для учителей</a></li>
                     </ul>
 
                 </div>

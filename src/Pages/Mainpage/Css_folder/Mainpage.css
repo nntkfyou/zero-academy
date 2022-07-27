@@ -103,6 +103,17 @@ p {
   color: #ffffff;
 }
 
+.btn-start:hover {
+  transform: scale(1.1);
+  
+  box-shadow: 0 0 5px #ff00b7 
+}
+
+.btn-start:active {
+  transform: scale(1);
+  box-shadow: none ;
+}
+
 .btn-watch-video {
   box-sizing: border-box;
 
@@ -126,6 +137,17 @@ p {
 
   color: #ff1dbe;
 }
+
+.btn-watch-video:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px #ff81db  ;
+}
+
+.btn-watch-video:active {
+  transform: scale(1);
+  box-shadow: none;
+}
+
 .cards {
   z-index: 999;
 }
@@ -325,6 +347,16 @@ letter-spacing: 0.02em;
 
 color: #FFFFFF;
 
+}
+
+.advantages-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px  #7502d9;
+}
+
+.advantages-btn:active {
+  transform: scale(1);
+  box-shadow: none;
 }
 
 

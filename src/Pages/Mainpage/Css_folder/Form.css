@@ -115,4 +115,16 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 17px;
+  z-index: 2;
+}
+
+.submit-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #ffffff;
+
+}
+
+.submit-btn:active {
+  transform: scale(1);
+  box-shadow: none;
 }
