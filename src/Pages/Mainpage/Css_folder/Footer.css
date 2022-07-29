@@ -1,96 +1,89 @@
 .footer-wrapper {
-    position: absolute;
-width: 1024px;
-height: 500px;
-left: calc(50% - 1024px/2);
-top: 1933px;
+  position: absolute;
+  width: 64rem;
+  height: 31.25rem;
+  left: calc(50% - 64rem / 2);
+  top: 120.8rem;
 
-background: #061844;
+  background: #061844;
 }
 
-
 .courses-heading {
-    position: absolute;
-width: 300px;
-height: 23px;
-left: 50px;
-top: 50px;
+  position: absolute;
+  width: 18.75rem;
+  height: 1.44rem;
+  left: 3.125rem;
+  top: 3.125rem;
 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.44rem;
+ 
 
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 23px;
-/* identical to box height */
+  letter-spacing: 0.025rem;
 
-
-letter-spacing: 0.02em;
-
-color: #FF1DBE;
-padding-bottom: 10px;
-border-bottom: 2px solid #455EA0;
+  color: #ff1dbe;
+  padding-bottom: 0.625rem;
+  border-bottom: 2px solid #455ea0;
 }
 
 .list {
-    list-style: none;
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17px;
-    letter-spacing: 0.02em;
+  list-style: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.94rem;
+  line-height: 1.06rem;
+  letter-spacing: 0.025rem;
 
-    padding: 0;
+  padding: 0;
 }
 
 .list li a {
-    text-decoration: none;
-    color: #FFFFFF;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .courses-list-1 {
-    
-
-    position: absolute;
-    width: auto;
-    height: 83px;
-    left: 50px;
-    top: 98px;
+  position: absolute;
+  width: auto;
+  height: 5.188rem;
+  left: 3.125rem;
+  top: 6.125rem;
 }
 .courses-list-2 {
-    position: absolute;
-    width: auto;
-    height: 105px;
-    left: 197px;
-    top: 98px;
-      }
+  position: absolute;
+  width: auto;
+  height: 6.563rem;
+  left: 12.31rem;
+  top: 6.125rem;
+}
 
 .info-heading {
-    position: absolute;
-width: 200px;
-height: 23px;
-left: 387px;
-top: 50px;
+  position: absolute;
+  width: 12.5rem;
+  height: 1.44rem;
+  left: 24.19rem;
+  top: 3.125rem;
 
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 23px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.44rem;
 
-letter-spacing: 0.02em;
+  letter-spacing: 0.025rem;
 
-color: #FF1DBE;
+  color: #ff1dbe;
 
-padding-bottom: 10px;
-border-bottom: 2px solid #455EA0;
+  padding-bottom: 0.625rem;
+  border-bottom: 2px solid #455ea0;
 }
 
 .info-list {
-    position: absolute;
-width: 114px;
-height: 127px;
-left: 387px;
-top: 98px;
-
+  position: absolute;
+  width: 7.125rem;
+  height: 7.94rem;
+  left: 24.19rem;
+  top: 6.125rem;
 }
-

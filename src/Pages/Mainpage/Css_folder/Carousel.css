@@ -1,161 +1,151 @@
-
-
 .main-container {
-  position: absolute;
-  top: 1075px;
-  left: calc(50% - 924px / 2);
-  width: 924px;
+  position: relative;
+  top: 67.188rem;
+  left: calc(50% - 57.75rem / 2);
+  width: 57.75rem;
 }
 
 .main-container h2 {
-  margin: 0 0 30px 10px;
-}
-
-.slider-wrapper {
-    width: 854px;
-    max-width: 845px;
-    margin-right: 0;
-    
-    display: flex;
-    flex-direction: column;
-    padding-left: 22px;
+  margin: 0 0 1.875rem;
 }
 
 .next-arrow {
   /* Temporary styles*/
-  width: 35px;
-  height: 35px;
+  width: 2.188rem;
+  height: 2.188rem;
   background-image: url(./../../../../public/img/arrow.png);
   background-position: center;
   background-size: cover;
   transform: rotate(180deg);
-  position: absolute;
-  left: 865px;
-  top: 128px;
+
+  position: relative;
+  left: 55.56rem;
+  bottom: 11.5rem;
 }
 
 .prev-arrow {
   /* Temporary styles*/
-  width: 35px;
-  height: 35px;
+  width: 2.188rem;
+  height: 2.188rem;
   background-image: url(./../../../../public/img/arrow.png);
   background-position: center;
   background-size: cover;
-  position: absolute;
-  top: 128px;
-  right: 772px;
+  position: relative;
+  top: 10.188rem;
+
   z-index: 1;
-  margin: 0 58px 0 0;
-  
+  margin-right: 1.125rem;
 }
-
-
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+}
 .carousel-cards {
-    box-sizing: border-box;
-  width: 246px;
-  max-width: 246px;
-  height: 290px;
-  max-height: 290px;
-  margin: 0 35px;
-  padding: 0;
   box-sizing: border-box;
+  position: relative;
+  left: 2.5rem;
+  right: 2.5rem;
+  width: 15.375rem;
+  max-width: 15.375rem;
+  height: 18.125rem;
+  max-height: 18.125rem;
 
-  
- /* Temporary stuff */
-  border: #d3d3d3 solid 1px;
-  
+  background: #ffffff;
+  box-shadow: 4px 10px 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
 }
 
 .carousel-cards h3 {
-    position: absolute;
-width: 220.42px;
-height: 46px;
-top: 141px;
-z-index: 1;
-margin-left: 12px;
-margin-top: 0;
+  position: absolute;
+  width: 13.78rem;
+  height: 2.88rem;
+  top: 8.8rem;
+  z-index: 1;
+  margin-left: 0.75rem;
+  margin-top: 0;
 
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 23px;
-letter-spacing: 0.02em;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.44rem;
+  letter-spacing: 0.025rem;
 
-color: #455EA0;
+  color: #455ea0;
 }
 
 .card-1 {
-  /* margin-left: 58px; */
   background-image: url(./../../../../public/img/card-1-img.png);
   background-repeat: no-repeat;
-  background-size: 246px 126px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  background-size: 15.45rem 7.88rem;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  position: relative;
+  left: 3.125rem;
 }
 .card-2 {
   background-image: url(./../../../../public/img/card-2-img.png);
   background-repeat: no-repeat;
-  background-size: 246px 126px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  background-size: 15.45rem 7.88rem;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  position: relative;
+  left: 2.188rem;
 }
 .card-3 {
   background-image: url(./../../../../public/img/card-3-img.png);
   background-repeat: no-repeat;
-  background-size: 246px 126px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  background-size: 15.45rem 7.88rem;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  position: relative;
+  left: 0.94rem;
 }
 
 .star {
-    width: 126px;
-   height: 20px;
-   display: grid;
-   margin-top: 202px;
-   grid-template-columns: repeat(5, 1fr);
-   grid-gap: 5px;
-  margin-bottom: 20px;
-  margin-left: 12px;
-  z-index: 1; 
+  width: 7.88rem;
+  height: 1.25rem;
+  display: flex;
+  margin-top: 12.63rem;
+  grid-gap: 0.3rem;
+  margin-bottom: 1.25rem;
+  margin-left: 0.75rem;
+  z-index: 1;
 }
 
-
 .price-link {
-    
-    display: inline-block;
-    width: 150px;
-    height: 23px;
-    margin-left: 12px;
-    margin-bottom: 25px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    /* identical to box height */
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.02em;
-    
-    color: #FF1DBE;
+  display: inline-block;
+  width: 9.38rem;
+  height: 1.44rem;
+  margin-left: 0.75rem;
+  margin-bottom: 1.56rem;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.44rem;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.025rem;
+
+  color: #ff1dbe;
 }
 .arrow-link {
   display: inline-block;
   position: relative;
-  left: 200px;
-  bottom: 45px;
-  
+  left: 12.5rem;
+  bottom: 2.81rem;
 }
 
 .arrow-link img {
   position: inherit;
-  width: 19px;
-  height: 15px;  
+  width: 1.188rem;
+  height: 0.94rem;
 }
-
 
 /*Old variant of slider*/
 

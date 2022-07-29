@@ -1,27 +1,27 @@
 .form-wrapper {
   position: absolute;
-  width: 950px;
-  height: 345px;
-  left: calc(50% - 950px / 2 + 13px);
-  top: 1538px;
+  width: 59.38rem;
+  height: 21.56rem;
+  left: calc(50% - 59.38rem / 2 + 0.81rem);
+  top: 96.125rem;
 
   background: #b35ffb;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .form-heading {
   position: absolute;
   width: auto;
-  height: 55px;
-  left: calc(50% - 418px / 2 - 213px);
-  top: 75px;
+  height: 3.44rem;
+  left: calc(50% - 26.125rem / 2 - 13.3rem);
+  top: 4.69rem;
 
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 46px;
+  font-size: 2.5rem;
+  line-height: 2.875rem;
 
-  letter-spacing: 0.02em;
+  letter-spacing: 0.025rem;
 
   color: #ffffff;
 
@@ -30,64 +30,63 @@
 
 .form-text {
   position: absolute;
-  width: 418px;
-  height: 55px;
-  left: calc(50% - 418px / 2 - 212px);
-  top: 150px;
+  width: 26.125rem;
+  height: 3.44rem;
+  left: calc(50% - 26.125rem / 2 - 13.25rem);
+  top: 9.38rem;
 
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 0.94rem;
+  line-height: 1.06rem;
 
-  letter-spacing: 0.02em;
+  letter-spacing: 0.025rem;
 
   color: #ffffff;
 }
 
 .input-name {
   position: absolute;
-  width: 388px;
-  height: 55px;
-  left: 523px;
-  top: 75px;
+  width: 24.25rem;
+  height: 3.44rem;
+  left: 32.69rem;
+  top: 4.69rem;
 
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .input-phone {
   position: absolute;
-  width: 180px;
-  height: 55px;
-  left: 523px;
-  top: 150px;
+  width: 11.25rem;
+  height: 3.44rem;
+  left: 32.69rem;
+  top: 9.38rem;
 
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .input-email {
   position: absolute;
-  width: 180px;
-  height: 55px;
-  left: 731px;
-  top: 150px;
+  width: 11.25rem;
+  height: 3.44rem;
+  left: 45.69rem;
+  top: 9.38rem;
 
   background: #ffffff;
-  border-radius: 10px;
-
+  border-radius: 0.625rem;
 }
 
 .input-text {
   padding-left: 20px;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 0.94rem;
+  line-height: 1.06rem;
 
-  letter-spacing: 0.02em;
+  letter-spacing: 0.025rem;
   border: 0;
 }
 
@@ -102,26 +101,25 @@
   box-sizing: border-box;
 
   position: absolute;
-  width: 150px;
-  height: 45px;
-  left: calc(50% - 150px / 2 + 374px);
-  top: 225px;
+  width: 9.38rem;
+  height: 2.81rem;
+  left: calc(50% - 9.38rem / 2 + 23.38rem);
+  top: 14.06rem;
 
   border: 2px solid #ffffff;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: transparent;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 0.94rem;
+  line-height: 1.06rem;
   z-index: 2;
 }
 
 .submit-btn:hover {
   transform: scale(1.05);
   box-shadow: 0 0 5px #ffffff;
-
 }
 
 .submit-btn:active {

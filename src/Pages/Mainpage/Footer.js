@@ -17,11 +17,11 @@ function Footer() {
                     </ul>
 
                     <ul className='courses-list-2 list'>
-                    <li><a href='/'>Программирование</a></li>
-                    <li><a href='/'>Маркетинг</a></li>
-                    <li><a href='/'>Психология</a></li>
-                    <li><a href='/'>Другое</a></li>
-                    
+                        <li><a href='/'>Программирование</a></li>
+                        <li><a href='/'>Маркетинг</a></li>
+                        <li><a href='/'>Психология</a></li>
+                        <li><a href='/'>Другое</a></li>
+
 
                     </ul>
 
